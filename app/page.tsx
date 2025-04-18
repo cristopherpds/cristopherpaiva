@@ -63,7 +63,7 @@ export default function Home() {
         </div>
         <div className="flex gap-4">
           <a 
-            href="https://github.com/tuusuario" 
+            href="https://github.com/cristopherpds" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-foreground/60 hover:text-foreground transition-colors"
@@ -71,7 +71,7 @@ export default function Home() {
             GitHub
           </a>
           <a 
-            href="https://linkedin.com/in/tuperfil" 
+            href="https://linkedin.com/in/pdscristopher" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-foreground/60 hover:text-foreground transition-colors"
