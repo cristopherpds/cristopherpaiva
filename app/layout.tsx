@@ -2,7 +2,6 @@ import type React from "react"
 import "./globals.css"
 import type { Metadata } from "next"
 import { Inter } from "next/font/google"
-import { ThemeProvider } from "@/components/theme-provider"
 
 // Importar la fuente Inter
 const inter = Inter({
@@ -23,9 +22,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es" className="scroll-smooth">
-      <body className={inter.className}>
-        <ThemeProvider defaultTheme="system">{children}</ThemeProvider>
-      </body>
+      <body className={inter.className}>{children}</body>
     </html>
   )
 }

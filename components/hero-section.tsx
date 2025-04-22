@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { Mail, Linkedin, Github, MapPin } from "lucide-react";
+import { FileDown, Linkedin, Github, MapPin } from "lucide-react";
 
 export default function HeroSection() {
   return (
@@ -71,9 +71,9 @@ export default function HeroSection() {
           <p>📩 ¡Conectemos y creemos algo increíble juntos!</p>
 
           <div className="flex flex-wrap gap-3 pt-4">
-            <a href="mailto:cristopher.paiva.dev@gmail.com" className="btn btn-primary">
-              <Mail size={18} />
-              Contáctame
+            <a href="/Cristopher_Josue_Paiva_da_Silva.pdf" className="btn btn-primary" download>
+              <FileDown size={18}/>
+              Descargar CV
             </a>
             <a
               href="https://linkedin.com/in/pdscristopher"

@@ -6,12 +6,11 @@ import ProjectsSection from "@/components/projects-section"
 import AboutSection from "@/components/about-section"
 import ContactSection from "@/components/contact-section"
 import Footer from "@/components/footer"
-import { ThemeEffect } from "./theme-effect"
 
 export default function Home() {
   return (
     <main className="min-h-screen bg-[#f5f7fa] dark:bg-gray-900">
-      <ThemeEffect />
+
       <Navbar />
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <HeroSection />
